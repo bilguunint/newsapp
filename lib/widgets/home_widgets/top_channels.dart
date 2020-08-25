@@ -59,7 +59,7 @@ class _TopChannelsWidgetState extends State<TopChannelsWidget> {
       );
     } else
       return Container(
-        height: 110.0,
+        height: 115.0,
         child: ListView.builder(
           scrollDirection: Axis.horizontal,
           itemCount: sources.length,
